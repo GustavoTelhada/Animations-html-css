@@ -1,0 +1,24 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+
+.retangulos{
+    background-color: rgb(28, 28, 146);
+    height: 400px;
+    width: 400px;
+
+}
+
+.page1{
+    background-color: red;
+    height: 50%;
+    width: 50%;
+    transition: all 0.5s;
+}
+
+.retangulos:hover .page1{
+    transform: translateX(100%);
+}
